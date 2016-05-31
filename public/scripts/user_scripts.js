@@ -8,7 +8,8 @@
                         tableRow += "<tr><td><input type='checkbox' id='"+i+"' /></td>";
                         tableRow += "<td>"+usersData[i].name+"</td>";
                         tableRow += "<td>"+usersData[i].email+"</td>";
-                         tableRow += "<td>"+usersData[i].phone+"</td></tr>";
+                         tableRow += "<td>"+usersData[i].phone+"</td>";
+                         tableRow += "<td>"+usersData[i].community+"</td></tr>";
                       table.push(tableRow);
                      
                  }
